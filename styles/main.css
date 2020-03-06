@@ -1,0 +1,77 @@
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.container__inner {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 40%;
+    margin: 1em;
+}
+
+.sectionHeaders {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+
+
+.equipments {
+    border: 1px solid black;
+    padding: .5em;
+    width: 40%;
+    margin: 1em;
+}
+.equipment {
+    border: 1px solid black;
+    margin: 1em;
+    padding: .5em;
+}
+.equipment__header {
+    font-weight: bold;
+}
+
+
+
+
+
+
+.products {
+    border: 1px solid black;
+    padding: .5em;
+    margin-top: 1em;
+}
+.product {
+    border: 1px solid black;
+    margin: 1em;
+    padding: .5em;
+}
+
+
+
+
+
+.employees {
+    border: 1px solid black;
+    padding: .5em;
+}
+.employee {
+    border: 1px solid black;
+    margin: 1em;
+    padding: .5em;
+}
+
+
+
+
+
